@@ -24,8 +24,8 @@ describe('cafee',()=>{
     })
 })
 
-describe('Name of the group', ()=>{
-    test('should', () =>{
+describe('getID', ()=>{
+    test('checks if getID returns a string and a date', () =>{
         const result = utils.getID() // se nombra una variable que liga nuestro archivo js y el nombre de la funcion
         expect(result).toEqual({
             id: expect.any(String), // any asi que se compare con algo similar a un string
